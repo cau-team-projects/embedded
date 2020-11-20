@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2013 Simon Willeke
+4    contact: hamstercount@hotmail.com
+5-->
+6<!--
+7    This file is part of Blockinger.
+8
+9    Blockinger is free software: you can redistribute it and/or modify
+10    it under the terms of the GNU General Public License as published by
+11    the Free Software Foundation, either version 3 of the License, or
+12    (at your option) any later version.
+13
+14    Blockinger is distributed in the hope that it will be useful,
+15    but WITHOUT ANY WARRANTY; without even the implied warranty of
+16    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+17    GNU General Public License for more details.
+18
+19    You should have received a copy of the GNU General Public License
+20    along with Blockinger.  If not, see <http://www.gnu.org/licenses/>.
+21
+22    Diese Datei ist Teil von Blockinger.
+23
+24    Blockinger ist Freie Software: Sie können es unter den Bedingungen
+25    der GNU General Public License, wie von der Free Software Foundation,
+26    Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren
+27    veröffentlichten Version, weiterverbreiten und/oder modifizieren.
+28
+29    Blockinger wird in der Hoffnung, dass es nützlich sein wird, aber
+30    OHNE JEDE GEWÄHELEISTUNG, bereitgestellt; sogar ohne die implizite
+31    Gewährleistung der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
+32    Siehe die GNU General Public License für weitere Details.
+33
+34    Sie sollten eine Kopie der GNU General Public License zusammen mit diesem
+35    Programm erhalten haben. Wenn nicht, siehe <http://www.gnu.org/licenses/>.
+36-->
+37<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+38    package="org.blockinger.game"
+39    android:versionCode="14"
+40    android:versionName="1.8.2" >
+41
+42    <uses-sdk
+42-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:44:5-46:41
+43        android:minSdkVersion="8"
+43-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:45:9-34
+44        android:targetSdkVersion="17" />
+44-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:46:9-38
+45
+46    <uses-permission android:name="android.permission.VIBRATE" />
+46-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:48:5-66
+46-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:48:22-63
+47
+48    <supports-screens
+48-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:5-190
+49        android:anyDensity="true"
+49-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:134-159
+50        android:largeScreens="true"
+50-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:80-107
+51        android:normalScreens="true"
+51-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:23-51
+52        android:resizeable="true"
+52-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:108-133
+53        android:smallScreens="true"
+53-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:52-79
+54        android:xlargeScreens="true" />
+54-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:160-188
+55
+56    <application
+56-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:51:5-105:19
+57        android:allowBackup="true"
+57-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:52:9-35
+58        android:debuggable="true"
+59        android:icon="@drawable/iconinger_v2"
+59-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:53:9-46
+60        android:label="@string/app_name"
+60-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:54:9-41
+61        android:testOnly="true"
+62        android:theme="@style/AppTheme" >
+62-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:55:9-40
+63        <activity
+63-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:56:9-67:20
+64            android:name="org.blockinger.game.activities.MainActivity"
+64-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:57:13-71
+65            android:configChanges="orientation|screenLayout|screenSize"
+65-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:58:13-72
+66            android:icon="@drawable/iconinger_v2"
+66-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:59:13-50
+67            android:label="@string/app_name"
+67-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:60:13-45
+68            android:theme="@style/AppTheme" >
+68-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:61:13-44
+69            <intent-filter>
+69-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:62:13-66:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:63:17-69
+70-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:63:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:65:17-77
+72-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:65:27-74
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:68:9-72:20
+76            android:name="org.blockinger.game.activities.GameActivity"
+76-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:69:13-71
+77            android:label="@string/title_activity_game"
+77-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:70:13-56
+78            android:theme="@style/AppTheme" >
+78-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:71:13-44
+79        </activity>
+80        <activity
+80-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:73:9-77:20
+81            android:name="org.blockinger.game.activities.SettingsActivity"
+81-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:74:13-75
+82            android:icon="@drawable/ic_settings"
+82-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:75:13-49
+83            android:label="@string/title_activity_settings" >
+83-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:76:13-60
+84        </activity>
+85        <activity
+85-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:78:9-82:20
+86            android:name="org.blockinger.game.activities.AdvancedSettingsActivity"
+86-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:79:13-83
+87            android:icon="@drawable/ic_settings"
+87-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:80:13-49
+88            android:label="@string/pref_category_advanced" >
+88-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:81:13-59
+89        </activity>
+90        <activity
+90-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:83:9-87:20
+91            android:name="org.blockinger.game.activities.AboutActivity"
+91-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:84:13-72
+92            android:icon="@drawable/iconinger_v2"
+92-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:85:13-50
+93            android:label="@string/title_activity_about" >
+93-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:86:13-57
+94        </activity>
+95        <activity
+95-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:88:9-91:20
+96            android:name="org.blockinger.game.activities.HelpActivity"
+96-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:89:13-71
+97            android:label="@string/title_activity_help" >
+97-->/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:90:13-56
+98        </activity>
+99
+100        <!--
+101        <receiver android:name="org.blockinger.game.components.NoiseBroadcastReceiver">
+102		   <intent-filter>
+103		      <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+104		   </intent-filter>
+105		</receiver>
+106        
+107        <receiver android:name="org.blockinger.game.components.RingerModeChangeReceiver">
+108		   <intent-filter>
+109		      <action android:name="AudioManager.RINGER_MODE_CHANGED_ACTION" />
+110		   </intent-filter>
+111		</receiver>
+112        -->
+113
+114    </application>
+115
+116</manifest>

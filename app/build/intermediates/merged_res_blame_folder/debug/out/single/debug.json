@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_settings.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-xhdpi/ic_settings.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/raw_drop_free.ogg.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/raw/drop_free.ogg"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_left_button_icon_hd.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/left_button_icon_hd.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/xml_advanced_preferences.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/advanced_preferences.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout-port_activity_game_alt.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-port/activity_game_alt.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_right_button_icon_hd.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/right_button_icon_hd.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_left_button_icon_noburn.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/left_button_icon_noburn.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/raw_key_free.ogg.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/raw/key_free.ogg"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout-port_activity_game.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-port/activity_game.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout-land_activity_game_alt.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-land/activity_game_alt.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_settings.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-hdpi/ic_settings.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/raw_sadrobot01.ogg.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/raw/sadrobot01.ogg"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/raw_tetris_free.ogg.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/raw/tetris_free.ogg"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout_blockinger_list_item.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/blockinger_list_item.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/xml_simple_preferences.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/simple_preferences.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout_seek_bar_dialog.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/seek_bar_dialog.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_rotate_right_button_icon_noburn.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_right_button_icon_noburn.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_rotate_left_button_icon_noburn.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_left_button_icon_noburn.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_hard_drop_button_icon_hd.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/hard_drop_button_icon_hd.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_hard_drop_button_icon_noburn.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/hard_drop_button_icon_noburn.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout_seek_bar_preference.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/seek_bar_preference.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/raw_lemmings03.ogg.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/raw/lemmings03.ogg"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_iconinger_v2.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-xhdpi/iconinger_v2.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable-hdpi_iconinger_v2.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-hdpi/iconinger_v2.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_iconinger_v2.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-xxhdpi/iconinger_v2.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/layout-land_activity_game.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-land/activity_game.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_rotate_right_button_icon_hd.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_right_button_icon_hd.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_settings.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-mdpi/ic_settings.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_right_button_icon_noburn.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/right_button_icon_noburn.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/raw_gameover2_free.ogg.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/raw/gameover2_free.ogg"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/xml_about_menu.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/about_menu.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_soft_drop_button_icon_hd.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/soft_drop_button_icon_hd.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable-mdpi_iconinger_v2.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-mdpi/iconinger_v2.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/xml_help_menu.xml.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/help_menu.xml"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/raw_clear2_free.ogg.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/raw/clear2_free.ogg"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_rotate_left_button_icon_hd.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_left_button_icon_hd.png"
+    },
+    {
+        "merged": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/res/merged/debug/drawable_soft_drop_button_icon_noburn.png.flat",
+        "source": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/soft_drop_button_icon_noburn.png"
+    }
+]

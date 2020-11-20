@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:1-107:12
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:1-107:12
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:1-107:12
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:1-107:12
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:1-107:12
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:1-107:12
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:1-107:12
+	package
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:40:5-34
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:42:5-32
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:39:11-69
+	android:versionCode
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:41:5-29
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:44:5-46:41
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:44:5-46:41
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:44:5-46:41
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:44:5-46:41
+INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:44:5-46:41
+	android:targetSdkVersion
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:46:9-38
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:45:9-34
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:48:5-66
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:48:22-63
+supports-screens
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:5-190
+	android:largeScreens
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:80-107
+	android:smallScreens
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:52-79
+	android:normalScreens
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:23-51
+	android:xlargeScreens
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:160-188
+	android:resizeable
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:108-133
+	android:anyDensity
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:49:134-159
+application
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:51:5-105:19
+	android:label
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:54:9-41
+	android:icon
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:53:9-46
+	android:allowBackup
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:52:9-35
+	android:theme
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:55:9-40
+activity#org.blockinger.game.activities.MainActivity
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:56:9-67:20
+	android:label
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:60:13-45
+	android:configChanges
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:58:13-72
+	android:icon
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:59:13-50
+	android:theme
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:57:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:62:13-66:29
+action#android.intent.action.MAIN
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:63:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:65:27-74
+activity#org.blockinger.game.activities.GameActivity
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:68:9-72:20
+	android:label
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:70:13-56
+	android:theme
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:69:13-71
+activity#org.blockinger.game.activities.SettingsActivity
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:73:9-77:20
+	android:label
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:76:13-60
+	android:icon
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:74:13-75
+activity#org.blockinger.game.activities.AdvancedSettingsActivity
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:78:9-82:20
+	android:label
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:81:13-59
+	android:icon
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:79:13-83
+activity#org.blockinger.game.activities.AboutActivity
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:83:9-87:20
+	android:label
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:86:13-57
+	android:icon
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:85:13-50
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:84:13-72
+activity#org.blockinger.game.activities.HelpActivity
+ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:88:9-91:20
+	android:label
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/AndroidManifest.xml:89:13-71
