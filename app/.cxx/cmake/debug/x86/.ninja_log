@@ -1,0 +1,6 @@
+# ninja log v5
+0	33	1606054491	CMakeFiles/led.dir/led.c.o	20806dc44a04675a
+34	43	1606054491	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86/libled.so	975a839d1e5b47d7
+1	32	1606055552	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86/libled.so	cd902f0cc4ef0a42
+0	37	1606056042	CMakeFiles/led.dir/led.c.o	20806dc44a04675a
+37	47	1606056042	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86/libled.so	cd902f0cc4ef0a42

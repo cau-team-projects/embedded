@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/led.c
+stdio.h
+-
+jni.h
+-
+fcntl.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+android/log.h
+-
+

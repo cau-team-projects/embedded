@@ -1,0 +1,11 @@
+# ninja log v5
+0	67	1606057649	CMakeFiles/buzzer.dir/buzzer.c.o	ca21ddf4a31d2867
+1	75	1606057649	CMakeFiles/led.dir/led.c.o	66464195b13eecc2
+68	87	1606057649	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libbuzzer.so	b1ff84166e2337ce
+87	104	1606057649	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libled.so	991fc1b0776618e7
+1	156	1606057754	CMakeFiles/buzzer.dir/buzzer.c.o	ca21ddf4a31d2867
+156	184	1606057755	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libbuzzer.so	b1ff84166e2337ce
+184	196	1606057755	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libled.so	991fc1b0776618e7
+0	29	1606057774	CMakeFiles/buzzer.dir/buzzer.c.o	ca21ddf4a31d2867
+29	48	1606057774	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libbuzzer.so	b1ff84166e2337ce
+48	71	1606057774	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libled.so	991fc1b0776618e7

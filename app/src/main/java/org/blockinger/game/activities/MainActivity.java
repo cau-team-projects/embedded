@@ -84,14 +84,17 @@ public class MainActivity extends ListActivity {
 	private SeekBar leveldialogBar;
 	private TextView leveldialogtext;
 	private Sound sound;
-	
+
+	public native int ledWrite(int data);
+	public native void buzzerWrite(int data);
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		PreferenceManager.setDefaultValues(this, R.xml.simple_preferences, true);
 		PreferenceManager.setDefaultValues(this, R.xml.advanced_preferences, true);
-		
+
 		/* Create Music */
 		sound = new Sound(this);
 		sound.startMusic(Sound.MENU_MUSIC, 0);
@@ -195,6 +198,9 @@ public class MainActivity extends ListActivity {
 					int current_level = startLevel
 					String player_name = ((TextView)findViewById(R.id.nicknameEditView)).getText().toString();
 	    */
+		buzzerWrite(1);
+		// ledWrite(15);
+		// lcdWrite(((TextView)findViewById(R.id.nicknameEditView)).getText().toString());
 		intent.putExtras(b); //Put your id to your next Intent
 		startActivityForResult(intent,SCORE_REQUEST);
 	}

@@ -1,0 +1,4 @@
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86/CMakeFiles/buzzer.dir
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86/CMakeFiles/led.dir
