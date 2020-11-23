@@ -16,11 +16,32 @@
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so",
       "runtimeFiles": []
     },
+    "lcd-Release-armeabi-v7a": {
+      "artifactName": "lcd",
+      "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/armeabi-v7a\" lcd",
+      "abi": "armeabi-v7a",
+      "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/liblcd.so",
+      "runtimeFiles": [
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/lib7segment.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libdotmatrix.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libpushbutton.so"
+      ]
+    },
     "native-lib-Release-armeabi-v7a": {
       "artifactName": "native-lib",
       "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/armeabi-v7a\" native-lib",
       "abi": "armeabi-v7a",
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": []
+    },
+    "pushbutton-Release-armeabi-v7a": {
+      "artifactName": "pushbutton",
+      "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/armeabi-v7a\" pushbutton",
+      "abi": "armeabi-v7a",
+      "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libpushbutton.so",
       "runtimeFiles": []
     },
     "7segment-Release-armeabi-v7a": {
@@ -42,12 +63,7 @@
       "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/armeabi-v7a\" led",
       "abi": "armeabi-v7a",
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so",
-      "runtimeFiles": [
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so",
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/lib7segment.so",
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libdotmatrix.so"
-      ]
+      "runtimeFiles": []
     }
   }
 }

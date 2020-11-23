@@ -28,6 +28,8 @@ org/blockinger/game/db/Score.java
  org.blockinger.game.db.Score
 org/blockinger/game/components/GameState.java
  org.blockinger.game.components.GameState
+org/blockinger/game/jni/Jni.java
+ org.blockinger.game.jni.Jni
 org/blockinger/game/WorkThread.java
  org.blockinger.game.WorkThread
 org/blockinger/game/BlockBoardView.java

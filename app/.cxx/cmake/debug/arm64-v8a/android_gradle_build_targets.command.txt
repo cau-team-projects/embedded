@@ -5,7 +5,9 @@ arguments :
 7segment
 buzzer
 dotmatrix
+lcd
 led
 native-lib
+pushbutton
 jvmArgs : 
 

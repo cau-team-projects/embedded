@@ -42,6 +42,7 @@ import org.blockinger.game.components.GameState;
 import org.blockinger.game.components.Sound;
 import org.blockinger.game.db.HighscoreOpenHelper;
 import org.blockinger.game.db.ScoreDataSource;
+import org.blockinger.game.jni.Jni;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -89,18 +90,27 @@ public class MainActivity extends ListActivity {
 		System.loadLibrary("led");
 		System.loadLibrary("dotmatrix");
 		System.loadLibrary("7segment");
-
+		System.loadLibrary("lcd");
 	}
 
 	public native int ledWrite(int data);
 	public native int dotWrite(int data);
 	public native int SSegWrite(int data);
 
+
+	/*
+			Blockinger
+			Highscore
+
+			BlockingerHighsc
+			ore
+	 */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		SSegWrite(0);
 		dotWrite(7);
 		ledWrite(0);
+		Jni.lcdWrite("Blockinger", "Highscore");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		PreferenceManager.setDefaultValues(this, R.xml.simple_preferences, true);

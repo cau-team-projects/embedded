@@ -57,3 +57,8 @@
 50	66	1606116360	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so	75a08e0cb7e756c0
 51	69	1606116360	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	2eafe0c4a29ac89e
 69	85	1606116360	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	c79d016631ca29f3
+23	78	1606119210	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	d5218ad2b93f372a
+12	125	1606119210	CMakeFiles/lcd.dir/lcd.c.o	56b5db8b4949d0e7
+2	42	1606119225	CMakeFiles/pushbutton.dir/pushbutton.c.o	e2962a1afe5e862b
+42	56	1606119225	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpushbutton.so	bc257f9e11d095ed
+56	73	1606119225	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/liblcd.so	a200c7c778606c12

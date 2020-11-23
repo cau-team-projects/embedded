@@ -229,10 +229,16 @@ buzzer_LIB_DEPENDS:STATIC=
 dotmatrix_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-led_LIB_DEPENDS:STATIC=general;buzzer;general;native-lib;general;7segment;general;dotmatrix;
+lcd_LIB_DEPENDS:STATIC=general;led;general;buzzer;general;native-lib;general;7segment;general;dotmatrix;general;pushbutton;
+
+//Dependencies for target
+led_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 native-lib_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+pushbutton_LIB_DEPENDS:STATIC=
 
 
 ########################

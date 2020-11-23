@@ -1,7 +1,9 @@
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/pushbutton.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/dotmatrix.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/7segment.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/native-lib.dir
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/lcd.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/buzzer.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64/CMakeFiles/led.dir
