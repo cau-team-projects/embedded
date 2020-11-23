@@ -76,11 +76,13 @@ public class GameActivity extends FragmentActivity {
 		System.loadLibrary("buzzer");
 		System.loadLibrary("led");
 		System.loadLibrary("7segment");
+		System.loadLibrary("dotmatrix");
 	}
 
 	public native int buzzerWrite(int data);
 	public native int ledWrite(int data);
 	public native int SSegWrite(int data);
+	public native int dotWrite(int data);
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -332,6 +334,7 @@ public class GameActivity extends FragmentActivity {
 		buzzerWrite(1);
 		ledWrite(0);
 		SSegWrite(0);
+		dotWrite(7);
 	}
 
 }

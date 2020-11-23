@@ -111,13 +111,11 @@ public class GameState extends Component {
 
 	static {
 		System.loadLibrary("7segment");
-		System.loadLibrary("buzzer");
 		System.loadLibrary("led");
 		System.loadLibrary("dotmatrix");
 	}
 
 	public native int SSegWrite(long data);
-	public native int buzzerWrite(int data);
 	public native int ledWrite(int data);
 	public native int dotWrite(int data);
 

@@ -44,3 +44,16 @@
 1	41	1606114540	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	89f7c834d6798a52
 42	57	1606114540	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so	75a08e0cb7e756c0
 57	70	1606114540	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	c79d016631ca29f3
+1	62	1606116173	CMakeFiles/buzzer.dir/buzzer.c.o	fa708f74e403a214
+1	67	1606116173	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	89f7c834d6798a52
+62	78	1606116173	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libbuzzer.so	7f3228df23cbfd2
+67	86	1606116173	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so	75a08e0cb7e756c0
+87	104	1606116173	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	c79d016631ca29f3
+1	68	1606116203	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	89f7c834d6798a52
+69	86	1606116203	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so	75a08e0cb7e756c0
+86	104	1606116203	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	c79d016631ca29f3
+1	50	1606116360	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	89f7c834d6798a52
+1	51	1606116360	CMakeFiles/7segment.dir/7segment.c.o	70a99559ae521ec1
+50	66	1606116360	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so	75a08e0cb7e756c0
+51	69	1606116360	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	2eafe0c4a29ac89e
+69	85	1606116360	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	c79d016631ca29f3
