@@ -101,6 +101,7 @@
     <string name="startLevelDialogCancel">Abbrechen</string>
     <string name="startLevelDialogStart">Start</string>
     <string name="startLevelDialogTitle">Startlevel</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="timeLabel">Zeit:</string>
     <string name="time_title">Zeit</string>
     <string name="title_activity_about">Über Blockinger</string>

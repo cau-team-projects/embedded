@@ -1,0 +1,7 @@
+ninja: Entering directory `/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86'
+[1/6] Building C object CMakeFiles/buzzer.dir/buzzer.c.o
+[2/6] Linking C shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86/libbuzzer.so
+[3/6] Building C object CMakeFiles/led.dir/led.c.o
+[4/6] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[5/6] Linking CXX shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so
+[6/6] Linking C shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86/libled.so

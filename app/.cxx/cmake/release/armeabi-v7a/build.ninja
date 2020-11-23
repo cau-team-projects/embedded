@@ -49,6 +49,39 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target native-lib
+
+
+#############################################
+# Order-only phony target for native-lib
+
+build cmake_object_order_depends_target_native-lib: phony
+build CMakeFiles/native-lib.dir/native-lib.cpp.o: CXX_COMPILER__native-lib /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/native-lib.cpp || cmake_object_order_depends_target_native-lib
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/native-lib.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target native-lib
+
+
+#############################################
+# Link the shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so
+
+build /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/native-lib.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments
+  LINK_LIBRARIES = -latomic -lm
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libnative-lib.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so
+  TARGET_PDB = native-lib.so.dbg
+# =============================================================================
 # Object build statements for SHARED_LIBRARY target buzzer
 
 
@@ -88,7 +121,7 @@ build /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build
 #############################################
 # Order-only phony target for led
 
-build cmake_object_order_depends_target_led: phony || cmake_object_order_depends_target_buzzer
+build cmake_object_order_depends_target_led: phony || cmake_object_order_depends_target_buzzer cmake_object_order_depends_target_native-lib
 build CMakeFiles/led.dir/led.c.o: C_COMPILER__led /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/led.c || cmake_object_order_depends_target_led
   DEFINES = -Dled_EXPORTS
   DEP_FILE = CMakeFiles/led.dir/led.c.o.d
@@ -103,10 +136,10 @@ build CMakeFiles/led.dir/led.c.o: C_COMPILER__led /home/jaehyeon/Downloads/Andro
 #############################################
 # Link the shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so
 
-build /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so: C_SHARED_LIBRARY_LINKER__led CMakeFiles/led.dir/led.c.o | /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so || /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so
+build /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so: C_SHARED_LIBRARY_LINKER__led CMakeFiles/led.dir/led.c.o | /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so || /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so -latomic -lm
+  LINK_LIBRARIES = /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so -latomic -lm
   OBJECT_DIR = CMakeFiles/led.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -121,6 +154,8 @@ build buzzer: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-ma
 build led: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so
 build libbuzzer.so: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so
 build libled.so: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so
+build libnative-lib.so: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so
+build native-lib: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so
 # =============================================================================
 # Folder targets.
 
@@ -137,7 +172,7 @@ build libled.so: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger
 #############################################
 # The main all target.
 
-build all: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so
+build all: phony /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbuzzer.so /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libled.so
 
 #############################################
 # Make the all target the default.

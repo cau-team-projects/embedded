@@ -16,13 +16,21 @@
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libbuzzer.so",
       "runtimeFiles": []
     },
+    "native-lib-Release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86\" native-lib",
+      "abi": "x86",
+      "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+      "runtimeFiles": []
+    },
     "led-Release-x86": {
       "artifactName": "led",
       "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86\" led",
       "abi": "x86",
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libled.so",
       "runtimeFiles": [
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libbuzzer.so"
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libbuzzer.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so"
       ]
     }
   }

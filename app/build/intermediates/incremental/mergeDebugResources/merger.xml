@@ -1,5 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res"/><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/rs/debug"/><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res"><file name="iconinger_v2" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-xxhdpi/iconinger_v2.png" qualifiers="xxhdpi-v4" type="drawable"/><file path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/values-de/strings.xml" qualifiers="de"><string name="app_name">Blockinger</string><string name="action_settings">Einstellungen</string><string name="action_backtomain">Zurück</string><string name="action_about">Über Blockinger</string><string name="action_donate">Spenden</string><string name="action_help">Hilfe</string><string name="startButtonString">Neues Spiel</string><string name="resumeButtonString">Fortsetzen</string><string name="quitButtonString">Beenden</string><string name="pausebutton">Pause</string><string name="holdbuttonstring">Halten</string><string name="playerNameInputFieldHint">Wähle einen Spielernamen</string><string name="highscoreListDescription">Highscores</string><string name="startLevelDialogTitle">Startlevel</string><string name="startLevelDialogCancel">Abbrechen</string><string name="startLevelDialogStart">Start</string><string name="title_activity_game">Blockinger</string><string name="title_activity_help">Hilfe</string><string name="score_title">Punkte</string><string name="level_title">Level</string><string name="time_title">Zeit</string><string name="apm_title">APM</string><string name="fps_title">FPS</string><string name="defeatDialogTitle">Game Over</string><string name="defeatDialogReturn">Zurück</string><string name="anonymous">Anonym</string><string name="scoreLabel">Punkte:</string><string name="timeLabel">Zeit:</string><string name="apmLabel">APM Durchschnitt:</string><string name="hint">Tipp: Blockinger lässt sich im Hoch- und Querformat spielen.</string><string name="highscore_title">Highscores</string><string name="musicAuthorNote">Musik von Pornophonique</string><string name="title_activity_settings">Einstellungen</string><string name="title_activity_about">Über Blockinger</string><string name="title_activity_donate">Spenden</string><string name="pref_phantom_summary">Zeigt dort einen Schatten, wo das aktive Tetrimino landen wird</string><string name="pref_phantom_title">Phantom</string><string name="pref_fps_summary">Zeigt die aktuelle Bildwiderholrate (Frames per Second) unter "APM" an</string><string name="pref_fps_title">FPS</string><string name="pref_popup_summary">Die Punkte für erfolgreich gesprengte Reihen werden kurz eingeblendet</string><string name="pref_popup_title">Pop-Up Text</string><string name="pref_rng_title">Zufallsgenerator</string><string name="pref_rngs_default">sevenbag</string><string name="pref_rng_summary">Wähle, wie die Reihenfolge der Tetriminos generiert werden soll. 7-Bag-Randomization ist sehr empfehlenswert und wird auch im wettkampfgeeigneten Tetris eingesetzt</string><string-array name="randomizer_preference_array">
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:support-compat:28.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:support-compat:28.0.0" from-dependency="true" generated-set="com.android.support:support-compat:28.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res"><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-en-rAU/values-en-rAU.xml" qualifiers="en-rAU"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-hu/values-hu.xml" qualifiers="hu"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-az/values-az.xml" qualifiers="az"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-en-rGB/values-en-rGB.xml" qualifiers="en-rGB"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-zh-rHK/values-zh-rHK.xml" qualifiers="zh-rHK"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ky/values-ky.xml" qualifiers="ky"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-pt/values-pt.xml" qualifiers="pt"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-in/values-in.xml" qualifiers="in"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-en-rCA/values-en-rCA.xml" qualifiers="en-rCA"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-sq/values-sq.xml" qualifiers="sq"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-lt/values-lt.xml" qualifiers="lt"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-el/values-el.xml" qualifiers="el"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-de/values-de.xml" qualifiers="de"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-zu/values-zu.xml" qualifiers="zu"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-it/values-it.xml" qualifiers="it"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-or/values-or.xml" qualifiers="or"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ta/values-ta.xml" qualifiers="ta"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-th/values-th.xml" qualifiers="th"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-bn/values-bn.xml" qualifiers="bn"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"৯৯৯+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-iw/values-iw.xml" qualifiers="iw"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-vi/values-vi.xml" qualifiers="vi"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-zh-rTW/values-zh-rTW.xml" qualifiers="zh-rTW"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-mr/values-mr.xml" qualifiers="mr"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"९९९+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-hi/values-hi.xml" qualifiers="hi"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-bs/values-bs.xml" qualifiers="bs"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ur/values-ur.xml" qualifiers="ur"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"+999"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-pl/values-pl.xml" qualifiers="pl"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-lv/values-lv.xml" qualifiers="lv"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-be/values-be.xml" qualifiers="be"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-sv/values-sv.xml" qualifiers="sv"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ca/values-ca.xml" qualifiers="ca"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-cs/values-cs.xml" qualifiers="cs"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-tr/values-tr.xml" qualifiers="tr"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-uk/values-uk.xml" qualifiers="uk"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-af/values-af.xml" qualifiers="af"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-gu/values-gu.xml" qualifiers="gu"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-mn/values-mn.xml" qualifiers="mn"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-si/values-si.xml" qualifiers="si"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ms/values-ms.xml" qualifiers="ms"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-nl/values-nl.xml" qualifiers="nl"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-v21/values-v21.xml" qualifiers="v21"><color name="notification_action_color_filter">@color/secondary_text_default_material_light</color><dimen name="notification_content_margin_start">0dp</dimen><dimen name="notification_main_column_padding_top">0dp</dimen><dimen name="notification_media_narrow_margin">12dp</dimen><style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification"/><style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/><style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time"/><style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title"/><style name="Widget.Compat.NotificationActionContainer" parent="">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style><style name="Widget.Compat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+    </style></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-fr-rCA/values-fr-rCA.xml" qualifiers="fr-rCA"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-hr/values-hr.xml" qualifiers="hr"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ja/values-ja.xml" qualifiers="ja"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-fr/values-fr.xml" qualifiers="fr"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-da/values-da.xml" qualifiers="da"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-nb/values-nb.xml" qualifiers="nb"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-kn/values-kn.xml" qualifiers="kn"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-pt-rBR/values-pt-rBR.xml" qualifiers="pt-rBR"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-tl/values-tl.xml" qualifiers="tl"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ka/values-ka.xml" qualifiers="ka"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values/values.xml" qualifiers=""><color name="notification_action_color_filter">#ffffffff</color><color name="notification_icon_bg_color">#ff9e9e9e</color><color name="ripple_material_light">#1f000000</color><color name="secondary_text_default_material_light">#8a000000</color><declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable><declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="FontFamilyFont">
+        
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        
+        <attr format="reference" name="font"/>
+        
+        <attr format="integer" name="fontWeight"/>
+        
+        <attr format="string" name="fontVariationSettings"/>
+        
+        <attr format="integer" name="ttcIndex"/>
+        
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable><declare-styleable name="GradientColor">
+        
+        <attr name="android:startColor"/>
+        
+        <attr name="android:centerColor"/>
+        
+        <attr name="android:endColor"/>
+        
+        <attr name="android:type"/>
+
+        
+        
+        <attr name="android:gradientRadius"/>
+
+        
+        
+        <attr name="android:centerX"/>
+        
+        <attr name="android:centerY"/>
+
+        
+        
+        <attr name="android:startX"/>
+        
+        <attr name="android:startY"/>
+        
+        <attr name="android:endX"/>
+        
+        <attr name="android:endY"/>
+
+        
+        <attr name="android:tileMode"/>
+    </declare-styleable><declare-styleable name="GradientColorItem">
+        
+        <attr name="android:offset"/>
+        
+        <attr name="android:color"/>
+    </declare-styleable><dimen name="compat_button_inset_horizontal_material">4dp</dimen><dimen name="compat_button_inset_vertical_material">6dp</dimen><dimen name="compat_button_padding_horizontal_material">8dp</dimen><dimen name="compat_button_padding_vertical_material">4dp</dimen><dimen name="compat_control_corner_material">2dp</dimen><dimen name="compat_notification_large_icon_max_height">320dp</dimen><dimen name="compat_notification_large_icon_max_width">320dp</dimen><dimen name="notification_action_icon_size">32dp</dimen><dimen name="notification_action_text_size">13sp</dimen><dimen name="notification_big_circle_margin">12dp</dimen><dimen name="notification_content_margin_start">8dp</dimen><dimen name="notification_large_icon_height">64dp</dimen><dimen name="notification_large_icon_width">64dp</dimen><dimen name="notification_main_column_padding_top">10dp</dimen><dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen><dimen name="notification_right_icon_size">16dp</dimen><dimen name="notification_right_side_padding_top">2dp</dimen><dimen name="notification_small_icon_background_padding">3dp</dimen><dimen name="notification_small_icon_size_as_large">24dp</dimen><dimen name="notification_subtext_size">13sp</dimen><dimen name="notification_top_pad">10dp</dimen><dimen name="notification_top_pad_large_text">5dp</dimen><drawable name="notification_template_icon_bg">#3333B5E5</drawable><drawable name="notification_template_icon_low_bg">#0cffffff</drawable><item name="line1" type="id"/><item name="line3" type="id"/><item name="tag_transition_group" type="id"/><item name="tag_unhandled_key_event_manager" type="id"/><item name="tag_unhandled_key_listeners" type="id"/><item name="text" type="id"/><item name="text2" type="id"/><item name="title" type="id"/><integer name="status_bar_notification_info_maxnum">999</integer><string name="status_bar_notification_info_overflow">999+</string><style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/><style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style><style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/><style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style><style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/><style name="Widget.Compat.NotificationActionContainer" parent=""/><style name="Widget.Compat.NotificationActionText" parent=""/></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-mk/values-mk.xml" qualifiers="mk"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-uz/values-uz.xml" qualifiers="uz"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-pt-rPT/values-pt-rPT.xml" qualifiers="pt-rPT"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-pa/values-pa.xml" qualifiers="pa"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ml/values-ml.xml" qualifiers="ml"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-b+sr+Latn/values-b+sr+Latn.xml" qualifiers="b+sr+Latn"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-fi/values-fi.xml" qualifiers="fi"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-sr/values-sr.xml" qualifiers="sr"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-en-rXC/values-en-rXC.xml" qualifiers="en-rXC"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‏‏‏‎‏‏‎‏‏‏‎‏‏‎‎‎‎‏‎‏‎‎‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‏‏‏‎‎‏‎‏‏‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎999+‎‏‎‎‏‎"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-sk/values-sk.xml" qualifiers="sk"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-is/values-is.xml" qualifiers="is"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-te/values-te.xml" qualifiers="te"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-en-rIN/values-en-rIN.xml" qualifiers="en-rIN"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-v16/values-v16.xml" qualifiers="v16"><dimen name="notification_right_side_padding_top">4dp</dimen></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-et/values-et.xml" qualifiers="et"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ru/values-ru.xml" qualifiers="ru"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ko/values-ko.xml" qualifiers="ko"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-gl/values-gl.xml" qualifiers="gl"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">">999"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-eu/values-eu.xml" qualifiers="eu"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ro/values-ro.xml" qualifiers="ro"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ar/values-ar.xml" qualifiers="ar"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-bg/values-bg.xml" qualifiers="bg"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-fa/values-fa.xml" qualifiers="fa"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-am/values-am.xml" qualifiers="am"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-as/values-as.xml" qualifiers="as"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"৯৯৯+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-kk/values-kk.xml" qualifiers="kk"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-my/values-my.xml" qualifiers="my"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"၉၉၉+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-sl/values-sl.xml" qualifiers="sl"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-es-rUS/values-es-rUS.xml" qualifiers="es-rUS"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-sw/values-sw.xml" qualifiers="sw"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-lo/values-lo.xml" qualifiers="lo"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-hy/values-hy.xml" qualifiers="hy"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-zh-rCN/values-zh-rCN.xml" qualifiers="zh-rCN"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-km/values-km.xml" qualifiers="km"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-ne/values-ne.xml" qualifiers="ne"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"९९९+"</string></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/res/values-es/values-es.xml" qualifiers="es"><string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"+999"</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:coordinatorlayout:28.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/5929825c857518f2798a6a55425fb08f/coordinatorlayout-28.0.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:coordinatorlayout:28.0.0" from-dependency="true" generated-set="com.android.support:coordinatorlayout:28.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/5929825c857518f2798a6a55425fb08f/coordinatorlayout-28.0.0/res"><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/5929825c857518f2798a6a55425fb08f/coordinatorlayout-28.0.0/res/values/values.xml" qualifiers=""><attr format="reference" name="coordinatorLayoutStyle"/><declare-styleable name="CoordinatorLayout">
+        
+        <attr format="reference" name="keylines"/>
+        
+        <attr format="color|reference" name="statusBarBackground"/>
+    </declare-styleable><declare-styleable name="CoordinatorLayout_Layout">
+        <attr name="android:layout_gravity"/>
+        
+        <attr format="string" name="layout_behavior"/>
+        
+        <attr format="reference" name="layout_anchor"/>
+        
+        <attr format="integer" name="layout_keyline"/>
+
+        
+        <attr name="layout_anchorGravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+        
+        <attr format="enum" name="layout_insetEdge">
+            
+            <enum name="none" value="0x0"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr>
+        
+        <attr name="layout_dodgeInsetEdges">
+            
+            <flag name="none" value="0x0"/>
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+            
+            <flag name="all" value="0x77"/>
+        </attr>
+    </declare-styleable><style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:support-media-compat:28.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/69a5a1de08dfe08bfe2a8b98a051a6f6/support-media-compat-28.0.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:support-media-compat:28.0.0" from-dependency="true" generated-set="com.android.support:support-media-compat:28.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/69a5a1de08dfe08bfe2a8b98a051a6f6/support-media-compat-28.0.0/res"><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/69a5a1de08dfe08bfe2a8b98a051a6f6/support-media-compat-28.0.0/res/values-v21/values-v21.xml" qualifiers="v21"><style name="TextAppearance.Compat.Notification.Info.Media">
+        <item name="android:textColor">@color/secondary_text_default_material_dark</item>
+    </style><style name="TextAppearance.Compat.Notification.Media">
+        <item name="android:textColor">@color/secondary_text_default_material_dark</item>
+    </style><style name="TextAppearance.Compat.Notification.Time.Media">
+        <item name="android:textColor">@color/secondary_text_default_material_dark</item>
+    </style><style name="TextAppearance.Compat.Notification.Title.Media">
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
+    </style></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/69a5a1de08dfe08bfe2a8b98a051a6f6/support-media-compat-28.0.0/res/values-v24/values-v24.xml" qualifiers="v24"><style name="TextAppearance.Compat.Notification.Info.Media"/><style name="TextAppearance.Compat.Notification.Media"/><style name="TextAppearance.Compat.Notification.Time.Media"/><style name="TextAppearance.Compat.Notification.Title.Media"/></file><file path="/home/jaehyeon/.gradle/caches/transforms-2/files-2.1/69a5a1de08dfe08bfe2a8b98a051a6f6/support-media-compat-28.0.0/res/values/values.xml" qualifiers=""><color name="notification_material_background_media_default_color">#ff424242</color><color name="primary_text_default_material_dark">#ffffffff</color><color name="secondary_text_default_material_dark">#b3ffffff</color><dimen name="subtitle_corner_radius">2dp</dimen><dimen name="subtitle_outline_width">2dp</dimen><dimen name="subtitle_shadow_offset">2dp</dimen><dimen name="subtitle_shadow_radius">2dp</dimen><integer name="cancel_button_image_alpha">127</integer><style name="TextAppearance.Compat.Notification.Info.Media"/><style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/><style name="TextAppearance.Compat.Notification.Media"/><style name="TextAppearance.Compat.Notification.Time.Media"/><style name="TextAppearance.Compat.Notification.Title.Media"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res"/><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/rs/debug"/><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res"><file name="iconinger_v2" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-xxhdpi/iconinger_v2.png" qualifiers="xxhdpi-v4" type="drawable"/><file path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/values-de/strings.xml" qualifiers="de"><string name="app_name">Blockinger</string><string name="action_settings">Einstellungen</string><string name="action_backtomain">Zurück</string><string name="action_about">Über Blockinger</string><string name="action_donate">Spenden</string><string name="action_help">Hilfe</string><string name="startButtonString">Neues Spiel</string><string name="resumeButtonString">Fortsetzen</string><string name="quitButtonString">Beenden</string><string name="pausebutton">Pause</string><string name="holdbuttonstring">Halten</string><string name="playerNameInputFieldHint">Wähle einen Spielernamen</string><string name="highscoreListDescription">Highscores</string><string name="startLevelDialogTitle">Startlevel</string><string name="startLevelDialogCancel">Abbrechen</string><string name="startLevelDialogStart">Start</string><string name="title_activity_game">Blockinger</string><string name="title_activity_help">Hilfe</string><string name="score_title">Punkte</string><string name="level_title">Level</string><string name="time_title">Zeit</string><string name="apm_title">APM</string><string name="fps_title">FPS</string><string name="defeatDialogTitle">Game Over</string><string name="defeatDialogReturn">Zurück</string><string name="anonymous">Anonym</string><string name="scoreLabel">Punkte:</string><string name="timeLabel">Zeit:</string><string name="apmLabel">APM Durchschnitt:</string><string name="hint">Tipp: Blockinger lässt sich im Hoch- und Querformat spielen.</string><string name="highscore_title">Highscores</string><string name="musicAuthorNote">Musik von Pornophonique</string><string name="title_activity_settings">Einstellungen</string><string name="title_activity_about">Über Blockinger</string><string name="title_activity_donate">Spenden</string><string name="pref_phantom_summary">Zeigt dort einen Schatten, wo das aktive Tetrimino landen wird</string><string name="pref_phantom_title">Phantom</string><string name="pref_fps_summary">Zeigt die aktuelle Bildwiderholrate (Frames per Second) unter "APM" an</string><string name="pref_fps_title">FPS</string><string name="pref_popup_summary">Die Punkte für erfolgreich gesprengte Reihen werden kurz eingeblendet</string><string name="pref_popup_title">Pop-Up Text</string><string name="pref_rng_title">Zufallsgenerator</string><string name="pref_rngs_default">sevenbag</string><string name="pref_rng_summary">Wähle, wie die Reihenfolge der Tetriminos generiert werden soll. 7-Bag-Randomization ist sehr empfehlenswert und wird auch im wettkampfgeeigneten Tetris eingesetzt</string><string-array name="randomizer_preference_array">
         <item>7-Bag-Randomization (standard)</item>
         <item>Rainer Zufall</item>
     </string-array><string name="softdropspeed_pref_title">Soft Drop Geschwindigkeit</string><string name="movespeed_pref_title">Horizontale Geschwindigkeit</string><string name="soundvolume_pref_title">Effektlautstärke</string><string name="musicvolume_pref_title">Musiklautstärke</string><string name="pref_vibration_button_title">Tastenvibration</string><string name="pref_vibration_button_summary">Kurze Vibration bei Knopfdruck als haptisches Feedback</string><string name="pref_vibration_events_title">Ereignisvibration</string><string name="pref_vibration_events_summary">Lange Vibration bei wichtigen Spielereignissen</string><string name="pref_button_sound_summary"/><string name="pref_button_sound_title">Ton bei Tastendruck</string><string name="pref_fpslimit_summary">Reduziert den Energieverbrauch deutlich aber kann das Spiel verlangsamen</string><string name="pref_fpslimit_title">FPS begrenzen</string><string name="pref_fpslimittext_summary">Das Spiel versucht, diese Bildwiederholrate so gut wie möglich einzuhalten</string><string name="pref_fpslimittext_title">Ziel-FPS</string><string name="pref_vibDurOffset_summary">Erhöhe die Dauer der Tastenvibrationen, um die Beschleunigungszeit des Vibrators zu kompensieren. Die Zeit sollte so gewählt werden, dass die Vibration gerade noch wahrnehmbar ist.\nZeit in Millisekunden</string><string name="pref_vibDurOffset_title">Tastenvibrationsdauer</string><string name="pref_antialiasing_summary">Verbessert die Darstellungsqualität von Text deutlich. Deaktivieren reduziert die Rechenlast</string><string name="pref_antialiasing_title">Anti-Aliasing für Text</string><string name="pref_accelerationH_summary">Je länger man die Bewegungsbuttons gedrückt hält, desto so schneller wird die Bewegung. Nützlich, um ungewollte Bewegungen zu verhindern</string><string name="pref_accelerationH_title">Horizontale Beschleunigung</string><string name="pref_accelerationV_summary">Je länger man die Bewegungsbuttons gedrückt hält, desto so schneller wird die Bewegung. Nützlich, um ungewollte Bewegungen zu verhindern</string><string name="pref_accelerationV_title">Soft Drop Beschleunigung</string><string name="pref_layoutswap_summary">Vertausche die Position von Soft- und Hard-Drop Button</string><string name="pref_layoutswap_title">Drop Buttons vertauschen</string><string name="pref_version_summary">1.0\nHier berühren, um das öffentliche Quelltextverzeichnis dieses Projekts anzusehen</string><string name="pref_version_title">Version</string><string name="pref_license_summary">Blockinger ist Freie Software: lizensiert unter der GNU General Public License (GPLv3), wie von der Free Software Foundation veröffentlicht.\nHier berühren, um die Lizenz online anzusehen</string><string name="pref_license_title">Lizenz</string><string name="pref_license_music_summary">\"lemmings in love (karaoke)\" und \"sad robot (karaoke)\" von Pornophonique. Lizensiert unter einer Creative Commons Namensnennung-Nichtkommerziell-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-NC-SA 3.0 DE).\nHier berühren, um zur Website der Künstler zu gelangen</string><string name="pref_license_music_title">Musik Lizenz</string><string name="pref_author_summary">Simon Willeke\nHier berühren, um den Autor z.B. für Anregungen, Kritik, Wünsche und alles was dieses Projekt anbelangt zu kontaktieren</string><string name="pref_author_title">Autor</string><string name="pref_donate_title">Spenden</string><string name="pref_donate_summary">Wenn Sie mit dieser Software zufrieden sind, un dem Autor gerne etwas gutes tun möchten, können Sie eine Spende tätigen.</string><string name="donate_button">Zu Paypal</string><string name="pref_category_sound">TON</string><string name="pref_category_vibration">VIBRATION</string><string name="pref_category_other">SONSTIGES</string><string name="pref_category_advanced">Erweitert</string><string name="pref_help_scoring_title">Punkte</string><string name="pref_help_scoring_summary">Wie genau werden die Punkte vergeben?</string><string name="pref_help_scoring_message">Punkte für gesprengte Reihen:\n100 Punkte für 1 Reihe,\n300 Punkte für 2 Reihen,\n500 Punkte für 3 Reihen,\n800 Punkte für 4 Reihen (genannt \"Tetris\").\n\nMehrfache Tetrisse hintereinander geben zusätzliche 400 Bonuspunkte per Tetris.\nZusätzliche Boni gibt es für Soft und Hard Drops. Soft Drops gewähren 1 Punkt je gefallener Reihe, Hard Drops dagegen 2.</string><string name="pref_help_levels_title">Level</string><string name="pref_help_levels_summary">Was bedeuten Level?</string><string name="pref_help_levels_message">Level sind gleichbedeutend mit Schwierigkeitsgrad.\nDie Tetriminos fallen je Level um 10% schneller.\nDas aktuelle Level wird erhöht, sobald 10 Reihen gesprengt wurden.</string><string name="pref_help_vibration_title">Vibration</string><string name="pref_help_vibration_summary">Wie sollte die Vibration eingestellt werden?</string><string name="pref_help_vibration_message">Auf einigen Geräten kann es zu Problemen mit der Vibration kommen. Außerdem haben viele Tablets keinen eingebauten Vibrator.\nWenn dein Gerät Vibrationen unterstützt, aber trotzdem keine Tastenvibration wahrgenommen werden, kann die Dauer der Vibration in den Einstellungen erhöht werden (\"Vibrationsdauer\").\nDie Dauer der Tastenvibration sollte so kurz eingestellt werden, dass sie gerade noch wahrnehmbar ist.</string><string name="pref_help_apm_title">APM</string><string name="pref_help_apm_summary">Was bedeutet APM?</string><string name="pref_help_apm_message">APM bedeutet \"Actions Per Minute\" und stellt ein Maß für die Fingergeschwindigkeit dar.</string><string name="pref_help_fps_title">FPS</string><string name="pref_help_fps_summary">Was bedeutet FPS? Wofür ist es nützlich?</string><string name="pref_help_fps_message">FPS bedeutet \"Frames Per Second\" und gibt die Frequenz an, mit der die Anzeige aktualisiert wird. Niedrige FPS äußern sich in ruckeligem Spielverhalten und verzögerten Reaktionen auf Eingaben. Hohe FPS verursachen hingegen einen erhöhten Energieverbrauch. Ein guter Kompromiss zwischen flüssiger Darstellung und Energieverbrauch lässt sich zwischen 25 und 35 FPS erreichen.\nFPS können in den erweiterten Einstellungen begrenzt werden.</string><string name="pref_help_randomizer_title">Zufallsgenerator</string><string name="pref_help_randomizer_summary">Was ist der Unterschied zwischen den beiden Zufallsgeneratoren? (in erweiterteten Einstellungen)</string><string name="pref_help_randomizer_message">7-Bag-Randomization:\nEs werden zufällig geordnete Sequenzen aller 7 Tetriminos generiert. Dies hat zur Folge, dass niemals drei identische Tetriminos hintereinander auftreten können.\n\nReiner Zufall:\nDas nächste Tetrimino wird komplett zufällig generiert.</string><string name="pref_help_resumability_title">Fortsetzbarkeit</string><string name="pref_help_resumability_summary">Unter welchen Bedingungen kann ein unterbrochenes Spiel fortgesetzt werden?</string><string name="pref_help_resumability_message">Das Spiel ist immer dann fortsetzbar, wenn der \"Beenden\"-Menüpunkt im Hauptmenü noch nicht gedrückt wurde.</string></file><file name="help_menu" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/help_menu.xml" qualifiers="" type="xml"/><file name="advanced_preferences" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/advanced_preferences.xml" qualifiers="" type="xml"/><file name="about_menu" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/about_menu.xml" qualifiers="" type="xml"/><file name="simple_preferences" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/xml/simple_preferences.xml" qualifiers="" type="xml"/><file name="ic_settings" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-hdpi/ic_settings.png" qualifiers="hdpi-v4" type="drawable"/><file name="iconinger_v2" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-hdpi/iconinger_v2.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_settings" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-mdpi/ic_settings.png" qualifiers="mdpi-v4" type="drawable"/><file name="iconinger_v2" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-mdpi/iconinger_v2.png" qualifiers="mdpi-v4" type="drawable"/><file name="activity_game_alt" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-land/activity_game_alt.xml" qualifiers="land" type="layout"/><file name="activity_game" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-land/activity_game.xml" qualifiers="land" type="layout"/><file path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo">
@@ -123,7 +311,173 @@
         <item name="android:background">@android:drawable/bottom_bar</item>
     </style><style name="ButtonBarButton"/></file><file name="ic_settings" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-xhdpi/ic_settings.png" qualifiers="xhdpi-v4" type="drawable"/><file name="iconinger_v2" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable-xhdpi/iconinger_v2.png" qualifiers="xhdpi-v4" type="drawable"/><file name="seek_bar_preference" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/seek_bar_preference.xml" qualifiers="" type="layout"/><file name="seek_bar_dialog" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/seek_bar_dialog.xml" qualifiers="" type="layout"/><file name="blockinger_list_item" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/blockinger_list_item.xml" qualifiers="" type="layout"/><file name="activity_main" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/values-land/Constants.xml" qualifiers="land"><integer name="padding_columns">1</integer></file><file name="activity_game_alt" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-port/activity_game_alt.xml" qualifiers="port" type="layout"/><file name="activity_game" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/layout-port/activity_game.xml" qualifiers="port" type="layout"/><file name="hard_drop_button_icon_noburn" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/hard_drop_button_icon_noburn.png" qualifiers="" type="drawable"/><file name="right_button_icon_noburn" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/right_button_icon_noburn.png" qualifiers="" type="drawable"/><file name="rotate_right_button_icon_noburn" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_right_button_icon_noburn.png" qualifiers="" type="drawable"/><file name="soft_drop_button_icon_noburn" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/soft_drop_button_icon_noburn.png" qualifiers="" type="drawable"/><file name="rotate_right_button_icon_hd" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_right_button_icon_hd.png" qualifiers="" type="drawable"/><file name="soft_drop_button_icon_hd" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/soft_drop_button_icon_hd.png" qualifiers="" type="drawable"/><file name="rotate_left_button_icon_hd" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_left_button_icon_hd.png" qualifiers="" type="drawable"/><file name="left_button_icon_hd" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/left_button_icon_hd.png" qualifiers="" type="drawable"/><file name="right_button_icon_hd" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/right_button_icon_hd.png" qualifiers="" type="drawable"/><file name="hard_drop_button_icon_hd" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/hard_drop_button_icon_hd.png" qualifiers="" type="drawable"/><file name="left_button_icon_noburn" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/left_button_icon_noburn.png" qualifiers="" type="drawable"/><file name="rotate_left_button_icon_noburn" path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/drawable/rotate_left_button_icon_noburn.png" qualifiers="" type="drawable"/><file path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo">
         
-    </style></file></source><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/rs/debug"/><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ButtonBarContainerTheme">
+    </style></file></source><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/rs/debug"/><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CoordinatorLayout">
+        
+        <attr format="reference" name="keylines"/>
+        
+        <attr format="color|reference" name="statusBarBackground"/>
+    </declare-styleable><declare-styleable name="FontFamilyFont">
+        
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        
+        <attr format="reference" name="font"/>
+        
+        <attr format="integer" name="fontWeight"/>
+        
+        <attr format="string" name="fontVariationSettings"/>
+        
+        <attr format="integer" name="ttcIndex"/>
+        
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable><declare-styleable name="ButtonBarContainerTheme">
         <attr format="reference" name="buttonBarStyle"/>
         <attr format="reference" name="buttonBarButtonStyle"/>
+    </declare-styleable><declare-styleable name="GradientColorItem">
+        
+        <attr name="android:offset"/>
+        
+        <attr name="android:color"/>
+    </declare-styleable><declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="CoordinatorLayout_Layout">
+        <attr name="android:layout_gravity"/>
+        
+        <attr format="string" name="layout_behavior"/>
+        
+        <attr format="reference" name="layout_anchor"/>
+        
+        <attr format="integer" name="layout_keyline"/>
+
+        
+        <attr name="layout_anchorGravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+        
+        <attr format="enum" name="layout_insetEdge">
+            
+            <enum name="none" value="0x0"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr>
+        
+        <attr name="layout_dodgeInsetEdges">
+            
+            <flag name="none" value="0x0"/>
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+            
+            <flag name="all" value="0x77"/>
+        </attr>
+    </declare-styleable><declare-styleable name="GradientColor">
+        
+        <attr name="android:startColor"/>
+        
+        <attr name="android:centerColor"/>
+        
+        <attr name="android:endColor"/>
+        
+        <attr name="android:type"/>
+
+        
+        
+        <attr name="android:gradientRadius"/>
+
+        
+        
+        <attr name="android:centerX"/>
+        
+        <attr name="android:centerY"/>
+
+        
+        
+        <attr name="android:startX"/>
+        
+        <attr name="android:startY"/>
+        
+        <attr name="android:endX"/>
+        
+        <attr name="android:endY"/>
+
+        
+        <attr name="android:tileMode"/>
+    </declare-styleable><declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
     </declare-styleable></configuration></mergedItems></merger>

@@ -26,5 +26,6 @@ Java_org_blockinger_game_activities_MainActivity_ledWrite(JNIEnv *env, jobject t
         printf("Write Error\n");
         return -1;
     }
+    close(fd);
     return 0;
 }

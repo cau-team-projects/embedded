@@ -85,6 +85,10 @@ public class MainActivity extends ListActivity {
 	private TextView leveldialogtext;
 	private Sound sound;
 
+	static {
+		System.loadLibrary("led");
+	}
+
 	public native int ledWrite(int data);
 	public native void buzzerWrite(int data);
 
@@ -130,6 +134,7 @@ public class MainActivity extends ListActivity {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				MainActivity.this.start();
+				ledWrite(startLevel);
 			}
 		});
 		/* Create Donate Dialog */
@@ -198,8 +203,7 @@ public class MainActivity extends ListActivity {
 					int current_level = startLevel
 					String player_name = ((TextView)findViewById(R.id.nicknameEditView)).getText().toString();
 	    */
-		buzzerWrite(1);
-		// ledWrite(15);
+		// buzzerWrite(1);
 		// lcdWrite(((TextView)findViewById(R.id.nicknameEditView)).getText().toString());
 		intent.putExtras(b); //Put your id to your next Intent
 		startActivityForResult(intent,SCORE_REQUEST);

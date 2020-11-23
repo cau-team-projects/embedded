@@ -71,7 +71,7 @@ public class GameActivity extends FragmentActivity {
 
 	public static final int NEW_GAME = 0;
 	public static final int RESUME_GAME = 1;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

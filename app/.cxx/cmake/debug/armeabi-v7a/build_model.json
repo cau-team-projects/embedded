@@ -106,7 +106,9 @@
       "moduleRootFolder": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
-        "X86"
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
       ],
       "ndkFolder": "/home/jaehyeon/Android/Sdk/ndk/21.1.6352462",
       "ndkMetaAbiList": [
@@ -158,14 +160,15 @@
       },
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
-        "X86"
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
       ],
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
         "compilerSettingsCacheFolder": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/.cxx",
         "cxxFolder": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/.cxx",
-        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -189,7 +192,10 @@
     "objFolder": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "prefabDirectory": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []

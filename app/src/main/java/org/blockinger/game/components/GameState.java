@@ -108,7 +108,7 @@ public class GameState extends Component {
 	private int popupSustain;
 	private int popupDecay;
 	private int softDropDistance;
-	
+
 	private GameState(GameActivity ga) {
 		super(ga);
 		actions = 0;
