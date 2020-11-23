@@ -58,6 +58,7 @@ import android.widget.ImageButton;
 import android.widget.Button;
 import android.view.View.OnTouchListener;
 
+/*
 class ThreadForInput implements Runnable {
 
 	public Controls internal_controls;
@@ -75,6 +76,7 @@ class ThreadForInput implements Runnable {
 		}
 	}
 }
+ */
 
 public class GameActivity extends FragmentActivity {
 
@@ -101,6 +103,7 @@ public class GameActivity extends FragmentActivity {
 	public native int ledWrite(int data);
 	public native int SSegWrite(int data);
 	public native int dotWrite(int data);
+
 	public void execute(int value) {
 		controls.leftButtonPressed();
 		controls.leftButtonReleased();
@@ -108,8 +111,8 @@ public class GameActivity extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		ThreadForInput t1 = new ThreadForInput();
-		Thread t = new Thread(t1, "ThreadForInput");
+		// ThreadForInput t1 = new ThreadForInput();
+		// Thread t = new Thread(t1, "ThreadForInput");
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("pref_layoutswap", false)) {

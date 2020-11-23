@@ -49,6 +49,34 @@ import org.blockinger.game.pieces.*;
 import android.R.color;
 import android.preference.PreferenceManager;
 
+class MotorTimer implements Runnable {
+	static {
+		System.loadLibrary("motor");
+	}
+
+	private int time;
+	public int data;
+	public int data2;
+
+	public native int motorControl(int time, int data, int data2);
+
+	public MotorTimer(int arg1, int arg2, int arg3) {
+		this.time = arg1;
+		this.data = arg2;
+		this.data2 = arg3;
+		this.run();
+	}
+	public void run() {
+		motorControl(this.time, this.data, this.data2);
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException ie) {
+			ie.printStackTrace();
+		}
+		motorControl(0, 0, 0);
+	}
+}
+
 
 public class GameState extends Component {
 
@@ -113,11 +141,13 @@ public class GameState extends Component {
 		System.loadLibrary("7segment");
 		System.loadLibrary("led");
 		System.loadLibrary("dotmatrix");
+		System.loadLibrary("motor");
 	}
 
 	public native int SSegWrite(long data);
 	public native int ledWrite(int data);
 	public native int dotWrite(int data);
+	public native int motorControl(int data, int data2);
 
 	private GameState(GameActivity ga) {
 		super(ga);
@@ -287,6 +317,9 @@ public class GameState extends Component {
 		//long tempBonus = consecutiveBonusScore;
 		//consecutiveBonusScore += addScore;
 		if(cleared > 0) {
+			MotorTimer mt = new MotorTimer(1, 1, 10);
+			Thread t = new Thread(mt, "TimerForMotor");
+			t.start();
 			/* HardDrop/SoftDrop Boni: we comply to Tetrisfriends rules now */
 			if(playerHardDrop) {
 				addScore += hardDropDistance*hardDropBonus;

@@ -28,6 +28,7 @@ org/blockinger/game/db/Score.java
  org.blockinger.game.db.Score
 org/blockinger/game/components/GameState.java
  org.blockinger.game.components.GameState
+ org.blockinger.game.components.MotorTimer
 org/blockinger/game/jni/Jni.java
  org.blockinger.game.jni.Jni
 org/blockinger/game/WorkThread.java
@@ -79,7 +80,6 @@ org/blockinger/game/activities/GameActivity.java
  org.blockinger.game.activities.GameActivity$6
  org.blockinger.game.activities.GameActivity$7
  org.blockinger.game.activities.GameActivity$8
- org.blockinger.game.activities.ThreadForInput
 org/blockinger/game/activities/MainActivity.java
  org.blockinger.game.activities.MainActivity
  org.blockinger.game.activities.MainActivity$1

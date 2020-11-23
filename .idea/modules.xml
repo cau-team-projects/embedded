@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/embedded.iml" filepath="$PROJECT_DIR$/.idea/modules/embedded.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/embedded.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/embedded.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Blockinger-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Blockinger-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Blockinger-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Blockinger-master.app.iml" />
     </modules>
   </component>
 </project>

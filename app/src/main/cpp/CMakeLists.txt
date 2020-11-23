@@ -19,7 +19,7 @@ ADD_LIBRARY ( 7segment SHARED 7segment.c )
 ADD_LIBRARY ( lcd SHARED lcd.c )
 ADD_LIBRARY ( dotmatrix SHARED dotmatrix.c )
 ADD_LIBRARY ( pushbutton SHARED pushbutton.c )
-
+ADD_LIBRARY ( motor SHARED motor.c )
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
 # default, you only need to specify the name of the public NDK library
@@ -38,6 +38,7 @@ target_link_libraries( # Specifies the target library.
         7segment
         dotmatrix
         pushbutton
+        motor
         # Links the target library to the log library
         # included in the NDK.
         )
