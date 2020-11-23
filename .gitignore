@@ -149,3 +149,11 @@ app/.cxx
 *.bin
 *.lock
 *.ser
+*.cmd
+*.ko.*
+*.ko
+*.mod
+*.mod.*
+*.o
+*.symvers
+*.order
