@@ -111,9 +111,13 @@ public class GameState extends Component {
 
 	static {
 		System.loadLibrary("7segment");
+		System.loadLibrary("buzzer");
+		System.loadLibrary("led");
 	}
 
 	public native int SSegWrite(long data);
+	public native int buzzerWrite(int data);
+	public native int ledWrite(int data);
 
 	private GameState(GameActivity ga) {
 		super(ga);
@@ -259,6 +263,7 @@ public class GameState extends Component {
 				multitetris = false;
 				host.sound.clearSound();
 				popupTime = gameTime;
+				nextLevel();
 				break;
 			case 4:
 				if(multitetris)
@@ -268,6 +273,7 @@ public class GameState extends Component {
 				multitetris = true;
 				host.sound.tetrisSound();
 				popupTime = gameTime;
+				nextLevel();
 				break;
 			default:
 				addScore = 0;
@@ -293,6 +299,7 @@ public class GameState extends Component {
 			popupString = "+"+addScore;
 		// host.saveScore(score); is not supported by ScoreDataSource
 		SSegWrite(score);
+		ledWrite(level);
 	}
 
 	public void pieceTransition(boolean eventVibrationEnabled) {
