@@ -1,6 +1,0 @@
-ninja: Entering directory `/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a'
-[1/5] Building C object CMakeFiles/dotmatrix.dir/dotmatrix.c.o
-[2/5] Building C object CMakeFiles/7segment.dir/7segment.c.o
-[3/5] Linking C shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so
-[4/5] Linking C shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so
-[5/5] Linking C shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so

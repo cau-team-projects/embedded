@@ -1,7 +1,0 @@
-# ninja log v5
-1	37	1606108679	CMakeFiles/buzzer.dir/buzzer.c.o	aae7254ede1b68b5
-1	52	1606108679	CMakeFiles/led.dir/led.c.o	d297ba1bc4e7e2e1
-37	53	1606108679	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86_64/libbuzzer.so	9abbd60a2b91fb6f
-1	479	1606108679	CMakeFiles/native-lib.dir/native-lib.cpp.o	5fa83b4167c41f5d
-479	516	1606108679	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	5a66819fa2c6f1ee
-516	528	1606108679	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/x86_64/libled.so	56a1b80d64d5932f

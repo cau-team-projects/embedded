@@ -1,9 +1,0 @@
-Executable : /home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/armeabi-v7a
-buzzer
-led
-native-lib
-jvmArgs : 
-
