@@ -157,3 +157,4 @@ app/.cxx
 *.o
 *.symvers
 *.order
+app/build
