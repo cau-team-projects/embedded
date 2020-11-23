@@ -79,6 +79,7 @@ org/blockinger/game/activities/GameActivity.java
  org.blockinger.game.activities.GameActivity$6
  org.blockinger.game.activities.GameActivity$7
  org.blockinger.game.activities.GameActivity$8
+ org.blockinger.game.activities.ThreadForInput
 org/blockinger/game/activities/MainActivity.java
  org.blockinger.game.activities.MainActivity
  org.blockinger.game.activities.MainActivity$1
