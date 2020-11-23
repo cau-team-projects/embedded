@@ -21,3 +21,6 @@
 60	86	1606110047	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	63e8abc51b5a4849
 1	77	1606110228	CMakeFiles/led.dir/led.c.o	7f97a1f0a1068255
 77	101	1606110229	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	63e8abc51b5a4849
+1	78	1606111690	CMakeFiles/7segment.dir/7segment.c.o	70a99559ae521ec1
+78	99	1606111690	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	2eafe0c4a29ac89e
+99	123	1606111690	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	457007db2149bf8c

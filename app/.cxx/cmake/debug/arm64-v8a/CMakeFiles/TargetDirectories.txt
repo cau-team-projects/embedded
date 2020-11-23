@@ -1,5 +1,6 @@
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/7segment.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/buzzer.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/led.dir

@@ -16,8 +16,16 @@
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libled.so",
       "runtimeFiles": [
         "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libbuzzer.so",
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/lib7segment.so"
       ]
+    },
+    "7segment-Release-arm64-v8a": {
+      "artifactName": "7segment",
+      "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/arm64-v8a\" 7segment",
+      "abi": "arm64-v8a",
+      "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/lib7segment.so",
+      "runtimeFiles": []
     },
     "buzzer-Release-arm64-v8a": {
       "artifactName": "buzzer",

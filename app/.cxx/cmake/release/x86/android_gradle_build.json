@@ -1,9 +1,10 @@
 {
   "stringTable": {
     "0": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86",
-    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
-    "2": "--target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dbuzzer_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
-    "3": "--target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dled_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -D_7segment_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "2": "--target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "3": "--target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dbuzzer_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "4": "--target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dled_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
   },
   "buildFiles": [
     "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/CMakeLists.txt",
@@ -24,7 +25,7 @@
       "files": [
         {
           "src": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/buzzer.c",
-          "flagsOrdinal": 2,
+          "flagsOrdinal": 3,
           "workingDirectoryOrdinal": 0
         }
       ],
@@ -41,7 +42,7 @@
       "files": [
         {
           "src": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/native-lib.cpp",
-          "flagsOrdinal": 1,
+          "flagsOrdinal": 2,
           "workingDirectoryOrdinal": 0
         }
       ],
@@ -58,7 +59,7 @@
       "files": [
         {
           "src": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/led.c",
-          "flagsOrdinal": 3,
+          "flagsOrdinal": 4,
           "workingDirectoryOrdinal": 0
         }
       ],
@@ -66,8 +67,26 @@
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libled.so",
       "runtimeFiles": [
         "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libbuzzer.so",
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so"
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/lib7segment.so"
       ]
+    },
+    "7segment-Release-x86": {
+      "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86\" 7segment",
+      "buildType": "release",
+      "toolchain": "3834671516",
+      "abi": "x86",
+      "artifactName": "7segment",
+      "files": [
+        {
+          "src": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/7segment.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86/lib7segment.so",
+      "runtimeFiles": []
     }
   },
   "toolchains": {

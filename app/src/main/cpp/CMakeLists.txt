@@ -15,6 +15,7 @@ PROJECT("Blockinger-master")
 ADD_LIBRARY ( led SHARED led.c )
 ADD_LIBRARY ( buzzer SHARED buzzer.c )
 ADD_LIBRARY ( native-lib SHARED native-lib.cpp )
+ADD_LIBRARY ( 7segment SHARED 7segment.c )
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -30,6 +31,7 @@ target_link_libraries( # Specifies the target library.
         led
         buzzer
         native-lib
+        7segment
         # Links the target library to the log library
         # included in the NDK.
         )

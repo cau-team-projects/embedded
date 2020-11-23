@@ -1,6 +1,12 @@
 [
 {
   "directory": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86",
+  "command": "/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -D_7segment_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/7segment.dir/7segment.c.o   -c /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/7segment.c",
+  "file": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/7segment.c"
+},
+
+{
+  "directory": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86",
   "command": "/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/native-lib.cpp",
   "file": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/src/main/cpp/native-lib.cpp"
 },

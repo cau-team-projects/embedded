@@ -109,6 +109,12 @@ public class GameState extends Component {
 	private int popupDecay;
 	private int softDropDistance;
 
+	static {
+		System.loadLibrary("7segment");
+	}
+
+	public native int SSegWrite(long data);
+
 	private GameState(GameActivity ga) {
 		super(ga);
 		actions = 0;
@@ -286,6 +292,7 @@ public class GameState extends Component {
 		if(addScore != 0)
 			popupString = "+"+addScore;
 		// host.saveScore(score); is not supported by ScoreDataSource
+		SSegWrite(score);
 	}
 
 	public void pieceTransition(boolean eventVibrationEnabled) {
