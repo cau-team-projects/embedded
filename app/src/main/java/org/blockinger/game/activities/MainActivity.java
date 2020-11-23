@@ -97,7 +97,6 @@ public class MainActivity extends ListActivity {
 	public native int dotWrite(int data);
 	public native int SSegWrite(int data);
 
-
 	/*
 			Blockinger
 			Highscore
@@ -105,6 +104,7 @@ public class MainActivity extends ListActivity {
 			BlockingerHighsc
 			ore
 	 */
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		SSegWrite(0);

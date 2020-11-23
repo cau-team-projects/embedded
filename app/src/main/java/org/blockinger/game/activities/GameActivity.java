@@ -58,6 +58,23 @@ import android.widget.ImageButton;
 import android.widget.Button;
 import android.view.View.OnTouchListener;
 
+class ThreadForInput implements Runnable {
+
+	public Controls internal_controls;
+	static {
+		System.loadLibrary("pushbutton");
+	}
+
+	public native int setInput();
+	public ThreadForInput(Controls c) {
+		this.internal_controls
+	}
+	public void run() {
+		while(true) {
+			setInput();
+		}
+	}
+}
 
 public class GameActivity extends FragmentActivity {
 
@@ -68,7 +85,7 @@ public class GameActivity extends FragmentActivity {
 	private WorkThread mainThread;
 	private DefeatDialogFragment dialog;
 	private boolean layoutSwap;
-	public int input;
+	public int value;
 	public static final int NEW_GAME = 0;
 	public static final int RESUME_GAME = 1;
 
@@ -84,11 +101,15 @@ public class GameActivity extends FragmentActivity {
 	public native int ledWrite(int data);
 	public native int SSegWrite(int data);
 	public native int dotWrite(int data);
-	// public native int setInput();
+	public void execute(int value) {
+		controls.leftButtonPressed();
+		controls.leftButtonReleased();
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// int pushbuttonfd = setInput();
+		ThreadForInput t1 = new ThreadForInput();
+		Thread t = new Thread(t1, "ThreadForInput");
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("pref_layoutswap", false)) {
@@ -136,7 +157,7 @@ public class GameActivity extends FragmentActivity {
 		if(!game.isResumable()) {
 			gameOver(game.getScore(), game.getTimeString(), game.getAPM());
 		}
-		
+
 		/* Register Button callback Methods */
 		((Button)findViewById(R.id.pausebutton_1)).setOnClickListener(new OnClickListener() {
 			@Override
