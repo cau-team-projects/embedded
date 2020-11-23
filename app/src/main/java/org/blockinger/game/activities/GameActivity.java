@@ -68,7 +68,7 @@ public class GameActivity extends FragmentActivity {
 	private WorkThread mainThread;
 	private DefeatDialogFragment dialog;
 	private boolean layoutSwap;
-
+	public int input;
 	public static final int NEW_GAME = 0;
 	public static final int RESUME_GAME = 1;
 
@@ -77,15 +77,18 @@ public class GameActivity extends FragmentActivity {
 		System.loadLibrary("led");
 		System.loadLibrary("7segment");
 		System.loadLibrary("dotmatrix");
+		System.loadLibrary("pushbutton");
 	}
 
 	public native int buzzerWrite(int data);
 	public native int ledWrite(int data);
 	public native int SSegWrite(int data);
 	public native int dotWrite(int data);
+	// public native int setInput();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		// int pushbuttonfd = setInput();
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("pref_layoutswap", false)) {
