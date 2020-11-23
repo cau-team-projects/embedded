@@ -34,7 +34,7 @@ int buzzer_release(struct inode *pinode, struct file *pfile) {
 	return 0;
 }
 
-int buzzer_write(struct inode *pinode, const char *gdata, size_t len, loff_t *off_what) {
+ssize_t buzzer_write(struct file *pfile, const char *gdata, size_t len, loff_t *off_what) {
 	const char *tmp = NULL;
 	unsigned char value;
 	
