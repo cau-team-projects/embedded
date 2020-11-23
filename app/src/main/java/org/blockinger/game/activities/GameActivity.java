@@ -72,6 +72,18 @@ public class GameActivity extends FragmentActivity {
 	public static final int NEW_GAME = 0;
 	public static final int RESUME_GAME = 1;
 
+	static {
+		System.loadLibrary("buzzer");
+		System.loadLibrary("led");
+		System.loadLibrary("7segment");
+		System.loadLibrary("dotmatrix");
+	}
+
+	public native int buzzerWrite(int data);
+	public native int ledWrite(int data);
+	public native int SSegWrite(int data);
+	public native int dotWrite(int data);
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -264,7 +276,7 @@ public class GameActivity extends FragmentActivity {
 		data.putExtra(MainActivity.PLAYERNAME_KEY, playerName);
 		data.putExtra(MainActivity.SCORE_KEY, score);
 		setResult(MainActivity.RESULT_OK, data);
-		
+
 		finish();
 	}
 	
@@ -319,9 +331,10 @@ public class GameActivity extends FragmentActivity {
 	public void gameOver(long score, String gameTime, int apm) {
 		dialog.setData(score, gameTime, apm);
 		dialog.show(getSupportFragmentManager(), "hamster");
-		/*
-			need function which activates the buzzer
-		*/
+		buzzerWrite(1);
+		ledWrite(0);
+		SSegWrite(0);
+		dotWrite(7);
 	}
 
 }

@@ -238,8 +238,11 @@ Led_LIB_DEPENDS:STATIC=general;/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolc
 //Dependencies for target
 buzzer_LIB_DEPENDS:STATIC=
 
+//Dependencies for target
+dotmatrix_LIB_DEPENDS:STATIC=
+
 //Dependencies for the target
-led_LIB_DEPENDS:STATIC=general;buzzer;general;native-lib;general;7segment;
+led_LIB_DEPENDS:STATIC=general;buzzer;general;native-lib;general;7segment;general;dotmatrix;
 
 //Path to a library.
 log-lib:FILEPATH=/home/jaehyeon/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/liblog.so

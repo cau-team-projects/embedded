@@ -87,13 +87,20 @@ public class MainActivity extends ListActivity {
 
 	static {
 		System.loadLibrary("led");
+		System.loadLibrary("dotmatrix");
+		System.loadLibrary("7segment");
+
 	}
 
 	public native int ledWrite(int data);
-	public native void buzzerWrite(int data);
+	public native int dotWrite(int data);
+	public native int SSegWrite(int data);
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		SSegWrite(0);
+		dotWrite(7);
+		ledWrite(0);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		PreferenceManager.setDefaultValues(this, R.xml.simple_preferences, true);
