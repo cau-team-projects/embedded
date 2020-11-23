@@ -145,3 +145,15 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/androidstudio
 
 *.so
+app/.cxx
+*.bin
+*.lock
+*.ser
+*.cmd
+*.ko.*
+*.ko
+*.mod
+*.mod.*
+*.o
+*.symvers
+*.order

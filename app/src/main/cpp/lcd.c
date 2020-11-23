@@ -13,7 +13,7 @@
 #include <sys/ioctl.h>
 #include <android/log.h>
 
-#define LCD_MAGIC 0xBD
+#define LCD_MAGIC 0x8D
 #define LCD_SET_CURSOR_POS _IOW(LCD_MAGIC, 0, int)
 
 JNIEXPORT jint JNICALL
