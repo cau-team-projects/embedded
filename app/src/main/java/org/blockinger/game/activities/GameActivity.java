@@ -58,26 +58,6 @@ import android.widget.ImageButton;
 import android.widget.Button;
 import android.view.View.OnTouchListener;
 
-/*
-class ThreadForInput implements Runnable {
-
-	public Controls internal_controls;
-	static {
-		System.loadLibrary("pushbutton");
-	}
-
-	public native int setInput();
-	public ThreadForInput(Controls c) {
-		this.internal_controls
-	}
-	public void run() {
-		while(true) {
-			setInput();
-		}
-	}
-}
- */
-
 public class GameActivity extends FragmentActivity {
 
 	public Sound sound;
@@ -96,7 +76,6 @@ public class GameActivity extends FragmentActivity {
 		System.loadLibrary("led");
 		System.loadLibrary("7segment");
 		System.loadLibrary("dotmatrix");
-		System.loadLibrary("pushbutton");
 	}
 
 	public native int buzzerWrite(int data);

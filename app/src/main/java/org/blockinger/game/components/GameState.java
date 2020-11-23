@@ -141,13 +141,11 @@ public class GameState extends Component {
 		System.loadLibrary("7segment");
 		System.loadLibrary("led");
 		System.loadLibrary("dotmatrix");
-		System.loadLibrary("motor");
 	}
 
 	public native int SSegWrite(long data);
 	public native int ledWrite(int data);
 	public native int dotWrite(int data);
-	public native int motorControl(int data, int data2);
 
 	private GameState(GameActivity ga) {
 		super(ga);
