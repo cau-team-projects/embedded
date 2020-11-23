@@ -29,3 +29,45 @@ Java_org_blockinger_game_activities_MainActivity_ledWrite(JNIEnv *env, jobject t
     close(fd);
     return 0;
 }
+
+JNIEXPORT jint JNICALL
+Java_org_blockinger_game_components_GameState_ledWrite(JNIEnv *env, jobject thiz, jint data) {
+    int fd, ret;
+    short value = data & 0xFF;
+
+    fd = open("/dev/led", O_RDWR);
+
+    if(fd < 0) {
+        printf("error loading device.\n");
+        return -1;
+    }
+
+    ret = write(fd, &value, sizeof(short));
+    if(ret < 0) {
+        printf("Write Error\n");
+        return -1;
+    }
+    close(fd);
+    return 0;
+}
+
+JNIEXPORT jint JNICALL
+Java_org_blockinger_game_activities_GameActivity_ledWrite(JNIEnv *env, jobject thiz, jint data) {
+    int fd, ret;
+    short value = data & 0xFF;
+
+    fd = open("/dev/led", O_RDWR);
+
+    if(fd < 0) {
+        printf("error loading device.\n");
+        return -1;
+    }
+
+    ret = write(fd, &value, sizeof(short));
+    if(ret < 0) {
+        printf("Write Error\n");
+        return -1;
+    }
+    close(fd);
+    return 0;
+}

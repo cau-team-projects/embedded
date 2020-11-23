@@ -90,7 +90,6 @@ public class MainActivity extends ListActivity {
 	}
 
 	public native int ledWrite(int data);
-	public native void buzzerWrite(int data);
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
