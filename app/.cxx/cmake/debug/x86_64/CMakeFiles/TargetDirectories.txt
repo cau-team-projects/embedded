@@ -1,4 +1,5 @@
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/dotmatrix.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/7segment.dir
 /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/native-lib.dir

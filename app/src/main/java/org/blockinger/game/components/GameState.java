@@ -113,11 +113,13 @@ public class GameState extends Component {
 		System.loadLibrary("7segment");
 		System.loadLibrary("buzzer");
 		System.loadLibrary("led");
+		System.loadLibrary("dotmatrix");
 	}
 
 	public native int SSegWrite(long data);
 	public native int buzzerWrite(int data);
 	public native int ledWrite(int data);
+	public native int dotWrite(int data);
 
 	private GameState(GameActivity ga) {
 		super(ga);
@@ -192,6 +194,7 @@ public class GameState extends Component {
 		// starting pieces
 		activeIndex  = rng.next();
 		previewIndex = rng.next();
+		dotWrite(previewIndex);
 		activePieces[activeIndex].setActive(true);
 
 		//paused = true;
@@ -316,6 +319,7 @@ public class GameState extends Component {
 		activePieces[activeIndex].reset(host);
 		activeIndex  = previewIndex;
 		previewIndex = rng.next();
+		dotWrite(previewIndex);
 		activePieces[activeIndex].reset(host);
 	}
 	

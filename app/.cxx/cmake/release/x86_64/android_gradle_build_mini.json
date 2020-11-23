@@ -17,7 +17,8 @@
       "runtimeFiles": [
         "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86_64/libbuzzer.so",
         "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86_64/lib7segment.so"
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86_64/lib7segment.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86_64/libdotmatrix.so"
       ]
     },
     "native-lib-Release-x86_64": {
@@ -39,6 +40,13 @@
       "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64\" 7segment",
       "abi": "x86_64",
       "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86_64/lib7segment.so",
+      "runtimeFiles": []
+    },
+    "dotmatrix-Release-x86_64": {
+      "artifactName": "dotmatrix",
+      "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/x86_64\" dotmatrix",
+      "abi": "x86_64",
+      "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/x86_64/libdotmatrix.so",
       "runtimeFiles": []
     }
   }

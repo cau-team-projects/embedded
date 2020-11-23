@@ -41,3 +41,6 @@
 1	45	1606113747	CMakeFiles/7segment.dir/7segment.c.o	70a99559ae521ec1
 45	63	1606113747	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	2eafe0c4a29ac89e
 63	83	1606113747	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	457007db2149bf8c
+1	41	1606114540	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	89f7c834d6798a52
+42	57	1606114540	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so	75a08e0cb7e756c0
+57	70	1606114540	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	c79d016631ca29f3

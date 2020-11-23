@@ -17,8 +17,16 @@
       "runtimeFiles": [
         "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libbuzzer.so",
         "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
-        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/lib7segment.so"
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/lib7segment.so",
+        "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libdotmatrix.so"
       ]
+    },
+    "dotmatrix-Release-arm64-v8a": {
+      "artifactName": "dotmatrix",
+      "buildCommand": "/home/jaehyeon/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/release/arm64-v8a\" dotmatrix",
+      "abi": "arm64-v8a",
+      "output": "/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libdotmatrix.so",
+      "runtimeFiles": []
     },
     "7segment-Release-arm64-v8a": {
       "artifactName": "7segment",

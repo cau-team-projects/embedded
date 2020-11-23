@@ -1,4 +1,2 @@
 ninja: Entering directory `/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/.cxx/cmake/debug/arm64-v8a'
-[1/3] Building C object CMakeFiles/7segment.dir/7segment.c.o
-[2/3] Linking C shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so
-[3/3] Linking C shared library /home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so
+ninja: no work to do.
