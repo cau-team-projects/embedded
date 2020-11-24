@@ -9,62 +9,57 @@
 #include <sys/ioctl.h>
 #include <android/log.h>
 
-#define UDELAY 1000000
+#define ERROR -1
+#define NOT_PRESSED -2
+#define PERSISTING -3
 
-int translate(int value) {
+JNIEXPORT jint JNICALL
+Java_org_blockinger_game_WorkThread_getInputStatus(JNIEnv *env, jobject thiz, jint prev) {
+    // check pushed button at every frame
+    // ignore input that has same value from previous one.
+    // only one button pushed : execute
+    // two or more button pushed : execute last one;
+    int fd, cnt = 0, last = -2;
+    int input;
+    unsigned char ret;
     unsigned char bytevalues[9];
-    int cnt = 0;
-    int last = -1;
+
+    fd = open("/dev/pushbutton", O_RDWR);
+    if (fd < 0) {
+        printf("Error opening device\n");
+        return ERROR;
+    }
+
+    ret = read(fd, &input, sizeof(int));
+    if(ret < 0) {
+        printf("Read error\n");
+        return ERROR;
+    }
+
     for(int i=0; i<9; i++) {
-        bytevalues[i] = (value >> 2*i) % 2;
-        cnt = bytevalues[i] ? cnt + 1 : cnt;
-        last = bytevalues[i] ? i : last;
-    }
-    if(cnt == 0) {
-        return 0;
-    } else if (cnt == 1) {
-        return last;
-    }
-}
-
-JNIEXPORT jint JNICALL
-Java_org_blockinger_game_activities_GameActivity_setInput(JNIEnv *env, jobject thiz) {
-    int fd, flag;
-    unsigned char ret;
-    int value = 0;
-
-    fd = open("/dev/pushbutton", O_RDWR);
-    if(fd < 0) {
-        printf("Error opening device\n");
+        bytevalues[i] = (input >> i) % 2;
+        if(bytevalues[i]) {
+            cnt++;
+            last = i;
+        }
     }
 
-    while(1) {
-        read(fd, &value, sizeof(int));
-        flag = translate(value);
-        if(flag != 0) break;
-        else usleep(UDELAY);
+    close(fd);
+
+    switch(cnt) {
+        case 0 :
+            return NOT_PRESSED;
+        case 1 :
+            if(last == prev) {
+                return PERSISTING;
+            } else {
+                return last;
+            }
+        default :
+            if(last == prev) {
+                return PERSISTING;
+            } else {
+                return last;
+            }
     }
-
-    return flag;
-}
-
-JNIEXPORT jint JNICALL
-Java_org_blockinger_game_activities_ThreadForInput_setInput(JNIEnv *env, jobject thiz) {
-    int fd, flag;
-    unsigned char ret;
-    int value = 0;
-
-    fd = open("/dev/pushbutton", O_RDWR);
-    if(fd < 0) {
-        printf("Error opening device\n");
-    }
-
-    while(1) {
-        read(fd, &value, sizeof(int));
-        flag = translate(value);
-        if(flag != 0) break;
-        else usleep(UDELAY);
-    }
-
-    return flag;
 }

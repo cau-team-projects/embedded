@@ -12,10 +12,13 @@ import android.preference.PreferenceManager;
 import android.view.SurfaceHolder;
 
 public class WorkThread extends Thread {
-     
-    /**
-	 * 
-	 */
+	static {
+		System.loadLibrary("pushbutton");
+	}
+
+	public native int getInputStatus(int prev);
+
+	public int previousInput;
 	private SurfaceHolder surfaceHolder;
     private boolean runFlag = false;
     boolean firstTime = true;
@@ -42,7 +45,55 @@ public class WorkThread extends Thread {
     public void setRunning(boolean run) {
         this.runFlag = run;
     }
-    
+
+    public void execute(int button_pressed) {
+    	switch(button_pressed) {
+			case 0 :
+				// rotate left
+				host.controls.rotateLeftPressed();
+				host.controls.rotateLeftReleased();
+				break;
+			case 1 :
+				// hard drop
+				host.controls.dropButtonPressed();
+				host.controls.dropButtonReleased();
+				break;
+			case 2 :
+				// rotate right
+				host.controls.rotateRightPressed();
+				host.controls.rotateRightReleased();
+				break;
+			case 3 :
+				// left
+				host.controls.leftButtonPressed();
+				host.controls.leftButtonReleased();
+				break;
+			case 4 :
+				// center button : ??
+				break;
+			case 5 :
+				// right
+				host.controls.rightButtonPressed();
+				host.controls.rightButtonReleased();
+				break;
+			case 6 :
+				// rotate left
+				host.controls.rotateLeftPressed();
+				host.controls.rotateLeftReleased();
+				break;
+			case 7 :
+				// soft drop
+				host.controls.downButtonPressed();
+				host.controls.downButtonReleased();
+				break;
+			case 8 :
+				// rotate right
+				host.controls.rotateRightPressed();
+				host.controls.rotateRightReleased();
+				break;
+		}
+	}
+
     @Override
     public void run() {
         Canvas c;
@@ -96,7 +147,26 @@ public class WorkThread extends Thread {
 	            }
 	            frameCounter[i]++;
 	            /* END OF FPS CONTROL*/
-	            
+
+				int temp = getInputStatus(previousInput);
+				switch(temp) {
+					case -3 :
+						// persisting
+						break;
+					case -2 :
+						// not_pressed
+						previousInput = -2;
+						break;
+					case -1 :
+						// error
+						break;
+					default :
+						previousInput = temp;
+						execute(previousInput);
+						break;
+				}
+
+
 	            if(host.game.cycle(tempTime))
 	            	host.controls.cycle(tempTime);
 	            host.game.getBoard().cycle(tempTime);

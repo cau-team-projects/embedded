@@ -67,7 +67,6 @@ public class GameActivity extends FragmentActivity {
 	private WorkThread mainThread;
 	private DefeatDialogFragment dialog;
 	private boolean layoutSwap;
-	public int value;
 	public static final int NEW_GAME = 0;
 	public static final int RESUME_GAME = 1;
 
@@ -83,15 +82,8 @@ public class GameActivity extends FragmentActivity {
 	public native int SSegWrite(int data);
 	public native int dotWrite(int data);
 
-	public void execute(int value) {
-		controls.leftButtonPressed();
-		controls.leftButtonReleased();
-	}
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// ThreadForInput t1 = new ThreadForInput();
-		// Thread t = new Thread(t1, "ThreadForInput");
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("pref_layoutswap", false)) {

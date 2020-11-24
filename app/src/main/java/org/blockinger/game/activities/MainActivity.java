@@ -100,9 +100,6 @@ public class MainActivity extends ListActivity {
 	/*
 			Blockinger
 			Highscore
-
-			BlockingerHighsc
-			ore
 	 */
 
 	@Override
