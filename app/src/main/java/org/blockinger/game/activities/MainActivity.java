@@ -108,6 +108,7 @@ public class MainActivity extends ListActivity {
 		dotWrite(7);
 		ledWrite(0);
 		Jni.lcdWrite("Blockinger", "Highscore");
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		PreferenceManager.setDefaultValues(this, R.xml.simple_preferences, true);

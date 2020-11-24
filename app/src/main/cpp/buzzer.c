@@ -19,6 +19,7 @@ Java_org_blockinger_game_activities_GameActivity_buzzerWrite(JNIEnv *env, jobjec
     fd = open("/dev/buzzer", O_RDWR);
     if (fd < 0) {
         printf("error loading device\n");
+        return -1;
     }
 
     write(fd, &value, 4);

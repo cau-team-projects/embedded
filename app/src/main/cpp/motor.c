@@ -43,7 +43,7 @@ Java_org_blockinger_game_components_GameState_motorControl(JNIEnv *env, jobject 
             break;
         case CCW :
             action = 1;
-            direction = 1;
+            direction = 0;
             speed = data2;
             ioctl(fd, MOTOR_SET_ACTION, &action, _IOC_SIZE(MOTOR_SET_ACTION));
             ioctl(fd, MOTOR_SET_DIRECTION, &direction, _IOC_SIZE(MOTOR_SET_DIRECTION));
@@ -53,8 +53,6 @@ Java_org_blockinger_game_components_GameState_motorControl(JNIEnv *env, jobject 
             action = 0;
             ioctl(fd, MOTOR_SET_ACTION, &action, _IOC_SIZE(MOTOR_SET_ACTION));
     }
-
-    ioctl(fd, MOTOR_SET_ACTION, &action, _IOC_SIZE(MOTOR_SET_ACTION));
 
     close(fd);
     return 0;
@@ -85,7 +83,7 @@ Java_org_blockinger_game_components_MotorTimer_motorControl(JNIEnv *env, jobject
             break;
         case CCW :
             action = 1;
-            direction = 1;
+            direction = 0;
             speed = data2;
             ioctl(fd, MOTOR_SET_ACTION, &action, _IOC_SIZE(MOTOR_SET_ACTION));
             ioctl(fd, MOTOR_SET_DIRECTION, &direction, _IOC_SIZE(MOTOR_SET_DIRECTION));
