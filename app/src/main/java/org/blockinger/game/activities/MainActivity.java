@@ -107,7 +107,6 @@ public class MainActivity extends ListActivity {
 		SSegWrite(0);
 		dotWrite(7);
 		ledWrite(0);
-		Jni.lcdWrite("Blockinger", "Highscore");
 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -123,6 +122,9 @@ public class MainActivity extends ListActivity {
 	    datasource = new ScoreDataSource(this);
 	    datasource.open();
 	    mc = datasource.getCursor();
+
+		Jni.lcdWrite("Blockinger", String.valueOf(mc.getInt(mc.getColumnIndex(HighscoreOpenHelper.COLUMN_SCORE))));
+
 	    // Use the SimpleCursorAdapter to show the
 	    // elements in a ListView
 	    adapter = new SimpleCursorAdapter(
