@@ -122,8 +122,15 @@ public class MainActivity extends ListActivity {
 	    datasource = new ScoreDataSource(this);
 	    datasource.open();
 	    mc = datasource.getCursor();
+		mc.moveToFirst();
 
-		Jni.lcdWrite("Blockinger", String.valueOf(mc.getInt(mc.getColumnIndex(HighscoreOpenHelper.COLUMN_SCORE))));
+		int highscore = mc.getInt(mc.getColumnIndex(HighscoreOpenHelper.COLUMN_SCORE));
+		int highscore_len = (int)(Math.log10(highscore)+1);
+
+		String str2 = "Highscore  " + Integer.toString(highscore) + "   ";
+
+		// String str2 = String.valueOf("Highscore " + mc.getInt(mc.getColumnIndex(HighscoreOpenHelper.COLUMN_SCORE)));
+		Jni.lcdWrite("   Blockinger   ", str2);
 
 	    // Use the SimpleCursorAdapter to show the
 	    // elements in a ListView

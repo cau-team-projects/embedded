@@ -46,3 +46,8 @@
 1	35	1606206378	CMakeFiles/pushbutton.dir/pushbutton.c.o	dc5edc7d0a4215a4
 35	48	1606206378	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpushbutton.so	fc199f7829eefd9f
 48	60	1606206378	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/liblcd.so	5640be94c9d594ce
+2	86	1606630242	CMakeFiles/buzzer.dir/buzzer.c.o	71d4bed147546941
+1	89	1606630242	CMakeFiles/motor.dir/motor.c.o	eec867e2f6ebbaa9
+86	177	1606630242	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libbuzzer.so	b80f333317692485
+89	181	1606630242	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libmotor.so	9de2d3aaa09028e7
+181	206	1606630242	/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/liblcd.so	5640be94c9d594ce

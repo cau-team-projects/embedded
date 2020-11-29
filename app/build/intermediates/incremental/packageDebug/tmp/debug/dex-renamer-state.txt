@@ -1,4 +1,4 @@
-#Tue Nov 24 17:26:19 KST 2020
+#Sun Nov 29 15:53:43 KST 2020
 base.0=/home/jaehyeon/Downloads/AndroidStudioProjects/Blockinger-master/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
