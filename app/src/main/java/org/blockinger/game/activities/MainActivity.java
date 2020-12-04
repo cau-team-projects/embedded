@@ -124,8 +124,16 @@ public class MainActivity extends ListActivity {
 	    mc = datasource.getCursor();
 		mc.moveToFirst();
 
-		int highscore = mc.getInt(mc.getColumnIndex(HighscoreOpenHelper.COLUMN_SCORE));
-		int highscore_len = (int)(Math.log10(highscore)+1);
+		int highscore;
+
+		try {
+			highscore = mc.getInt(mc.getColumnIndex((HighscoreOpenHelper.COLUMN_SCORE)));
+		} catch (IndexOutOfBoundsException e) {
+			highscore = 0;
+		}
+
+		// int highscore = mc.getInt(mc.getColumnIndex(HighscoreOpenHelper.COLUMN_SCORE));
+		// int highscore_len = (int)(Math.log10(highscore)+1);
 
 		String str2 = "Highscore  " + Integer.toString(highscore) + "   ";
 
